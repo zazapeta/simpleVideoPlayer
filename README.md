@@ -37,11 +37,13 @@ import React from 'react';
 class App extends React.Component {
   render() {
     return (
+        <div id="svp">
         <h1>Simple Video Player !</h1>
         <SVP 
             mp4 = {_ASSET["video"]["mp4"]}
             ogg = {_ASSET["video"]["ogg"]}
         />
+        </div>
         
   }
 }
