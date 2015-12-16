@@ -1,0 +1,26 @@
+{
+  "name": "simplevideoplayer",
+  "version": "1.0.0",
+  "description": "This is a simple video player developped for onRewind.tv : the incredible LIVE-review platforme !",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "npm run test-mocha && npm run test-phantom-mocha",
+    "test-mocha" : "TO-DO",
+    "test-phantom-mocha" : "TO-DO"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zazapeta/simpleVideoPlayer.git"
+  },
+  "keywords": [
+    "simple",
+    "video",
+    "player"
+  ],
+  "author": "zazapeta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zazapeta/simpleVideoPlayer/issues"
+  },
+  "homepage": "https://github.com/zazapeta/simpleVideoPlayer#readme"
+}
