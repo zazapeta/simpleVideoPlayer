@@ -1,3 +1,8 @@
+#Just a a simple vanilla player.
+
+<hr>
+<hr>
+<hr>
 # SimpleVideoPlayer
 This is a simple video player developped for onRewind.tv : the incredible LIVE-review platforme !
 
@@ -49,4 +54,6 @@ class App extends React.Component {
 }
  
 React.render(<App/>, document.getElementById('app'));
+
 ```
+
