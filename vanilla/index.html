@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Video Player ! : React</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+  	<header>
+  		<h1>Simple Video Player</h1>
+  	</header>
+    <section id="app" class="center">
+    <video id="SVP" ontimeupdate="update_progress_bar()" onloadeddata="update_buffer_bar()">
+      <source src="https://s3-eu-west-1.amazonaws.com/onrewind-test-bucket/big_buck_bunny.mp4">
+    Your user agent does not support the HTML5 Video element.
+    </video>
+      <br>
+      <div id="SVP_controls">
+        <div>
+          <progress id='SVP_bufferBar' min='0' max='100' value='0'></progress>
+          <progress id='SVP_progressBar' min='0' max='100' value='0'></progress>
+        </div>
+        <div onclick="vid_play_pause()">
+          <span><i id="SVP_iconPlayPause" class="fa fa-play"></i></span>
+        </div>
+      </div>
+    </section>
+    <script src="js/app.js"></script>
+  </body>
+</html>
+

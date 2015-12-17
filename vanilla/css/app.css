@@ -1,0 +1,16 @@
+#app{
+	width:600px;
+}
+#SVP{
+	width:100%;
+}
+#SVP_progressBar{
+	width:100%;
+	background-color:#eee;
+}
+#SVP_bufferBar{
+	width:100%;
+}
+.center{
+	margin: auto;
+}
