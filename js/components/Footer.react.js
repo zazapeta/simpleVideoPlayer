@@ -1,12 +1,11 @@
-// -------------------------------------------
-var React = require('react');
-// -------------------------------------------
-var Footer = React.createClass({
+import React from "React";
+
+export class Footer extends React.Component {
 	render() {
 		return (
 			<section id="footer">The footer</section>
 		);
 	}
-});
+}
 
-module.exports = Footer;
+export default Footer;

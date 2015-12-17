@@ -1,12 +1,18 @@
+import alt from "../alt";
 
- */
- * CookMeActions
- */
+export class SVPActions {
+	play(){
+		console.log('action : play');
+		return "play";
+	}
+	pause(){
+		console.log('action : pause');
+		return "pause";
+	}
+	fetchVideo(){
+		console.log('action : fetch');
+		return "fetch";
+	}
+}
 
-var AppDispatcher = require('../dispatcher/AppDispatcher');
-var CookMeConstants = require('../constants/CookMeConstants');
-
-var CookMeActions = {
-  
-};
-
+export default alt.createActions(SVPActions);
