@@ -4,3 +4,6 @@
 node_modules
 onRewindReport.md
 js/bundle.js
+lib/selenium-server-standalone-2.48.2.jar
+lib/chromedriver.exe
+reports

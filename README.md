@@ -24,7 +24,7 @@ Step:
     1. Front :  
         - ReactJS (with Alt for more Fun ^^ and discover something new [isomorphic powa !])
         - Mocha for testing
-        - PhantomJS + Mocha for end-to-end testing
+        - Watchnight for end-to-end testing
     2. Back : None
 - Deployment : 
     - GitHub
