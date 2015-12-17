@@ -1,35 +1,17 @@
 {
-  "name": "simplevideoplayer",
+  "name": "vanilla-simplevideoplayer",
   "version": "1.0.0",
-  "description": "This is a simple video player developped for onRewind.tv : the incredible LIVE-review platforme !",
-  "main": "js/app.js",
-  "browserify": {
-    "transform": [
-      [
-        "babelify",
-        {
-          "presets": [
-            "react",
-            "es2015"
-          ]
-        }
-      ]
-    ]
-  },
+  "description": "just a simple video player with vanilla",
+  "main": "index.html",
   "scripts": {
-    "test": "npm run test-mocha && npm run test-phantom-mocha",
-    "test-mocha": "TO-DO",
-    "test-phantom-mocha": "TO-DO",
-
-    "start": "npm run start-postcss && npm run start-build",
-    "start-postcss": "gulp css",
-    "start-build": "watchify --debug js/app.js -o js/bundle.js"
+    "test": "babel --presets es2015 js/_test.js --out-file tests/test.js && node nightwatch.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zazapeta/simpleVideoPlayer.git"
   },
   "keywords": [
+    "vanilla",
     "simple",
     "video",
     "player"
@@ -39,21 +21,5 @@
   "bugs": {
     "url": "https://github.com/zazapeta/simpleVideoPlayer/issues"
   },
-  "homepage": "https://github.com/zazapeta/simpleVideoPlayer#readme",
-  "dependencies": {
-    "alt": "^0.18.1",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3"
-  },
-  "devDependencies": {
-    "autoprefixer": "^6.1.2",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-react": "^6.3.13",
-    "babelify": "^7.2.0",
-    "browserify": "^12.0.1",
-    "gulp": "^3.9.0",
-    "gulp-postcss": "^6.0.1",
-    "precss": "^1.3.0",
-    "watchify": "^3.6.1"
-  }
+  "homepage": "https://github.com/zazapeta/simpleVideoPlayer#readme"
 }

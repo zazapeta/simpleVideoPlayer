@@ -1,0 +1,72 @@
+23:20:58.806 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to C:/Users/Sami/Documents/GitHub/simpleVideoPlayer/lib/chromedriver.exe
+23:20:58.873 INFO - Java: Oracle Corporation 25.65-b01
+23:20:58.873 INFO - OS: Windows 8.1 6.3 amd64
+23:20:58.883 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+23:20:58.937 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+23:20:58.937 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+23:20:59.055 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+23:20:59.055 INFO - Selenium Server is up and running
+23:20:59.368 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+23:20:59.377 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067) on port 12404
+Only local connections are allowed.
+23:21:01.224 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+23:21:01.240 INFO - Executing: [get: http://127.0.0.1:8080])
+23:21:04.514 INFO - Done: [get: http://127.0.0.1:8080]
+23:21:05.526 INFO - Executing: [find elements: By.cssSelector: body])
+23:21:05.563 INFO - Done: [find elements: By.cssSelector: body]
+23:21:05.571 INFO - Executing: [find elements: By.cssSelector: #SVP])
+23:21:05.602 INFO - Done: [find elements: By.cssSelector: #SVP]
+23:21:05.609 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP], ontimeupdate])
+23:21:05.622 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP], ontimeupdate]
+23:21:05.627 INFO - Executing: [find elements: By.cssSelector: #SVP])
+23:21:05.634 INFO - Done: [find elements: By.cssSelector: #SVP]
+23:21:05.639 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP], onloadeddata])
+23:21:05.648 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP], onloadeddata]
+23:21:05.652 INFO - Executing: [find elements: By.cssSelector: #SVP])
+23:21:05.663 INFO - Done: [find elements: By.cssSelector: #SVP]
+23:21:05.666 INFO - Executing: [tag name: 1 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP]])
+23:21:05.672 INFO - Done: [tag name: 1 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP]]
+23:21:05.678 INFO - Executing: [find elements: By.cssSelector: #SVP])
+23:21:05.685 INFO - Done: [find elements: By.cssSelector: #SVP]
+23:21:05.690 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP]])
+23:21:05.707 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP]]
+23:21:05.712 INFO - Executing: [find elements: By.cssSelector: #SVP_progressBar])
+23:21:05.730 INFO - Done: [find elements: By.cssSelector: #SVP_progressBar]
+23:21:05.733 INFO - Executing: [tag name: 2 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_progressBar]])
+23:21:05.739 INFO - Done: [tag name: 2 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_progressBar]]
+23:21:05.744 INFO - Executing: [find elements: By.cssSelector: #SVP_progressBar])
+23:21:05.760 INFO - Done: [find elements: By.cssSelector: #SVP_progressBar]
+23:21:05.762 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_progressBar]])
+23:21:05.776 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_progressBar]]
+23:21:05.780 INFO - Executing: [find elements: By.cssSelector: #SVP_bufferBar])
+23:21:05.797 INFO - Done: [find elements: By.cssSelector: #SVP_bufferBar]
+23:21:05.800 INFO - Executing: [tag name: 3 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_bufferBar]])
+23:21:05.808 INFO - Done: [tag name: 3 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_bufferBar]]
+23:21:05.812 INFO - Executing: [find elements: By.cssSelector: #SVP_bufferBar])
+23:21:05.827 INFO - Done: [find elements: By.cssSelector: #SVP_bufferBar]
+23:21:05.832 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_bufferBar]])
+23:21:05.847 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_bufferBar]]
+23:21:05.850 INFO - Executing: [find elements: By.cssSelector: #SVP_iconPlayPause])
+23:21:05.866 INFO - Done: [find elements: By.cssSelector: #SVP_iconPlayPause]
+23:21:05.871 INFO - Executing: [get element attribute: 4 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_iconPlayPause], class])
+23:21:05.881 INFO - Done: [get element attribute: 4 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_iconPlayPause], class]
+23:21:05.886 INFO - Executing: [find element: By.cssSelector: #SVP_iconPlayPause])
+23:21:05.905 INFO - Done: [find element: By.cssSelector: #SVP_iconPlayPause]
+23:21:05.908 INFO - Executing: [click: 4 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_iconPlayPause]])
+23:21:05.944 INFO - Done: [click: 4 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_iconPlayPause]]
+23:21:05.948 INFO - Executing: [find elements: By.cssSelector: #SVP_iconPlayPause])
+23:21:05.965 INFO - Done: [find elements: By.cssSelector: #SVP_iconPlayPause]
+23:21:05.969 INFO - Executing: [get element attribute: 4 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_iconPlayPause], class])
+23:21:05.980 INFO - Done: [get element attribute: 4 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_iconPlayPause], class]
+23:21:05.985 INFO - Executing: [find element: By.cssSelector: #SVP_iconPlayPause])
+23:21:06.000 INFO - Done: [find element: By.cssSelector: #SVP_iconPlayPause]
+23:21:06.004 INFO - Executing: [click: 4 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_iconPlayPause]])
+23:21:06.044 INFO - Done: [click: 4 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_iconPlayPause]]
+23:21:06.049 INFO - Executing: [find elements: By.cssSelector: #SVP_iconPlayPause])
+23:21:06.060 INFO - Done: [find elements: By.cssSelector: #SVP_iconPlayPause]
+23:21:06.062 INFO - Executing: [get element attribute: 4 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_iconPlayPause], class])
+23:21:06.069 INFO - Done: [get element attribute: 4 [[ChromeDriver: chrome on WIN8_1 (b0b3d86177807016d42a0505491e7e3a)] -> css selector: #SVP_iconPlayPause], class]
+23:21:06.077 INFO - Executing: [delete session: 79211592-74ec-45b4-a5b7-919a1fc1312f])
+23:21:07.390 INFO - Done: [delete session: 79211592-74ec-45b4-a5b7-919a1fc1312f]

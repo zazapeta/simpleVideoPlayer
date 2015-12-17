@@ -1,43 +1,16 @@
-
-/* css of your app here */
-:root{
-	--bg_color : blue;
+#app{
+	width:600px;
 }
-#section_my_app{
-	background-color: var(--bg_color);
+#SVP{
+	width:100%;
 }
-
-@keyframes animationExample {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
+#SVP_progressBar{
+	width:100%;
+	background-color:#eee;
 }
- 
-.animateThis {
-    animation: animationExample 10s;
-    display: flex;
-    background-color: red;
+#SVP_bufferBar{
+	width:100%;
 }
-
-/* VISUALS */
- 
-.column_one, .column_two {
-    border: 0.0625rem solid #ccc;
-}
- 
-.column_two {
-    border-left: 0;
-}
- 
-body {
-    .column_one, .column_two {
-        border: 0.0625rem solid #ccc;
-    }
- 
-    .column_two {
-        border-top: 0;
-    }
+.center{
+	margin: auto;
 }
