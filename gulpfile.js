@@ -1,7 +1,6 @@
-var source = require('vinyl-source-stream');
 var gulp = require('gulp');
-var postcss = require('gulp-postcss');
 // css
+var postcss = require('gulp-postcss');
 var precss = require('precss');
 var autoprefixer = require('autoprefixer');
 
