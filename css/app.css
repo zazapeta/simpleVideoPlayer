@@ -1,43 +1,31 @@
-
-/* css of your app here */
 :root{
-	--bg_color : blue;
+    --app_width  : 600px;
+    --app_height : 400px;
+    --app_margin : auto;
+
+    --video_width : 100%;
+    --video_height: 100%;
+
+    --progressBar_width : var(--video_width) ;
+    --progressBar_color : #eee ;
+
+    --bufferBar_width : var(--video_width) ;
 }
-#section_my_app{
-	background-color: var(--bg_color);
+#app{
+    width: var(--app_width);
+	margin: var(--app_margin);
+}
+.svpVideo.video{
+    width: var(--video_width);
+    height: var(--video_height);
+}
+.svpControls{
+    &.svpProgressBar.progressBar{
+        width: var(--progressBar_width);
+        background-color: var(--progressBar_color);
+    }
+    &.svpBufferBar.bufferBar{
+        width: var(--bufferBar_width);
+    }
 }
 
-@keyframes animationExample {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
-}
- 
-.animateThis {
-    animation: animationExample 10s;
-    display: flex;
-    background-color: red;
-}
-
-/* VISUALS */
- 
-.column_one, .column_two {
-    border: 0.0625rem solid #ccc;
-}
- 
-.column_two {
-    border-left: 0;
-}
- 
-body {
-    .column_one, .column_two {
-        border: 0.0625rem solid #ccc;
-    }
- 
-    .column_two {
-        border-top: 0;
-    }
-}

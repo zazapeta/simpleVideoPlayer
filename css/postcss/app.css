@@ -1,51 +1,16 @@
-
-/* css of your app here */
-#section_my_app{
-	background-color: blue;
+#app{
+    width: 600px;
+	margin: auto;
+}
+.svpVideo.video{
+    width: 100%;
+    height: 100%;
+}
+.svpControls.svpProgressBar.progressBar{
+    width: 100%;
+    background-color: #eee;
+}
+.svpControls.svpBufferBar.bufferBar{
+    width: 100%;
 }
 
-@-webkit-keyframes animationExample {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
-}
-
-@keyframes animationExample {
-    from {
-        width: 0;
-    }
-    to {
-        width: 100%;
-    }
-}
- 
-.animateThis {
-    -webkit-animation: animationExample 10s;
-            animation: animationExample 10s;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    background-color: red;
-}
-
-/* VISUALS */
- 
-.column_one, .column_two {
-    border: 0.0625rem solid #ccc;
-}
- 
-.column_two {
-    border-left: 0;
-}
- 
-body .column_one, body .column_two {
-	border: 0.0625rem solid #ccc;
-}
- 
-body .column_two {
-	border-top: 0;
-}
